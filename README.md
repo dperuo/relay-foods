@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dperuo/relay-foods.svg)](https://travis-ci.org/dperuo/relay-foods)
+
 # relay-foods
 Proof-Of-Concept for Pickup Location Mapping
 
