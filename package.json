@@ -1,0 +1,22 @@
+{
+  "name": "relay-foods",
+  "version": "1.0.0",
+  "description": "Proof-Of-Concept for Pickup Location Mapping",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dperuo/relay-foods.git"
+  },
+  "author": "Derek Peruo <derek@derekperuo.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dperuo/relay-foods/issues"
+  },
+  "homepage": "https://github.com/dperuo/relay-foods#readme"
+}
