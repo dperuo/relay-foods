@@ -3,8 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>Relay Foods</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
   </head>
   <body>
-    <h1>Hello Relay!</h1>
+    <div class="container">
+      <div class="row">
+          <div class="col-xs-12 col-sm-6 form-group">
+            <h1>Where do you live?</h1>
+            <input class="form-control" type="text" name="live" value="">
+          </div>
+          <div class="col-xs-12 col-sm-6 form-group">
+            <h1>Where do you work?</h1>
+            <input class="form-control" type="text" name="work" value="">
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-xs-12">
+            <button class="btn btn-primary btn-lg btn-block" type="submit" name="submit">Find My Pickup Locaitons!</button>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1445211733454" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Pickup Locations</h1>
+          <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
+            <li>five</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-xs-12">
+            <button class="btn btn-success btn-lg btn-block" type="submit" name="submit">Make This My Pickup Locaiton!</button>
+          </div>
+      </div>
+    </div>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
