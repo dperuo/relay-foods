@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "build": "./node_modules/.bin/webpack --progress --colors",
     "test": "exit 0"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/dperuo/relay-foods/issues"
   },
-  "homepage": "https://github.com/dperuo/relay-foods#readme"
+  "homepage": "https://github.com/dperuo/relay-foods#readme",
+  "devDependencies": {
+    "webpack": "^1.12.2"
+  }
 }
