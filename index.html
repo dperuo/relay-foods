@@ -48,6 +48,29 @@
       </div>
     </div>
 
-    <script src="./dist/js/bundle.js"></script>
+    <script type="text/javascript">
+    (function(undefined) {
+      var request = new XMLHttpRequest();
+
+      request.open('GET', './package.json', true);
+
+      request.onload = onloadFn;
+
+      request.send();
+
+      function onloadFn() {
+        var source = "./dist/js/bundle.js";
+        var version = JSON.parse(request.responseText).version;
+        var hashed = [source, '?v=', version].join('');
+
+        var body = document.querySelector('body');
+        var script = document.createElement('script')
+
+        script.src = hashed;
+
+        body.appendChild(script);
+      }
+    })();
+    </script>
   </body>
 </html>
